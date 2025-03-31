@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ac0811f-f6cd-4d26-a8f8-34c5ac522e8b" name="Changes" comment="????">
-      <change afterPath="$PROJECT_DIR$/.idea/src/Vastused.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Ajalugu.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Ajalugu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/It.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/It.java" afterDir="false" />
+    <list default="true" id="9ac0811f-f6cd-4d26-a8f8-34c5ac522e8b" name="Changes" comment="vastuste sisestamine ja uuesti mägnu alustamine">
       <change beforePath="$PROJECT_DIR$/.idea/src/Küsimused.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Küsimused.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Muusika.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Muusika.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Toit.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Toit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Varia.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Varia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/Ajalugu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/It.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/Keel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/Küsimused.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_trivia/Küsimused.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_trivia/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/Muusika.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/Sport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/Toit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/Varia.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +94,17 @@
       <workItem from="1742200270151" duration="3894000" />
       <workItem from="1742465517959" duration="84000" />
       <workItem from="1742465613567" duration="644000" />
-      <workItem from="1743409014919" duration="7034000" />
+      <workItem from="1743409014919" duration="7919000" />
     </task>
+    <task id="LOCAL-00001" summary="vastuste sisestamine ja uuesti mägnu alustamine">
+      <option name="closed" value="true" />
+      <created>1743417347748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743417347748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,5 +130,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vastuste sisestamine ja uuesti mägnu alustamine" />
+    <option name="LAST_COMMIT_MESSAGE" value="vastuste sisestamine ja uuesti mägnu alustamine" />
   </component>
 </project>

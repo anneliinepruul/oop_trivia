@@ -1,5 +1,3 @@
-import com.sun.tools.javac.Main;
-
 import java.util.Random;
 import java.util.Scanner;
 

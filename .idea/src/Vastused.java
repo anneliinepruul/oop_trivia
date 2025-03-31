@@ -8,7 +8,8 @@ public class Vastused {
         this.scanner = scanner;
     }
 
-    public void vastus(Küsimused küsimused){
+    public void vastus(){
+        Küsimused küsimused = new Küsimused(scanner);
         int valik = küsimused.getValik();
         System.out.println("Sisesta vastus (väiketähtedes) : ");
         switch (valik) {

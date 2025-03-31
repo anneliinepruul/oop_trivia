@@ -51,12 +51,4 @@ public class Sport {
         }
         return "Küsimusele vastust ei leitud.";
     }
-
-    // Peameetod testimiseks
-    public static void main(String[] args) {
-        Sport sport = new Sport();
-        String testKüsimus = "Milline Eesti linn on tuntud kui \"Eesti suusa pealinn\" ?";
-        System.out.println("Küsimus: " + testKüsimus);
-        System.out.println("Vastus: " + sport.getVastus(testKüsimus));
-    }
 }

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ac0811f-f6cd-4d26-a8f8-34c5ac522e8b" name="Changes" comment="vastuste sisestamine ja uuesti mängu alustamine" />
+    <list default="true" id="9ac0811f-f6cd-4d26-a8f8-34c5ac522e8b" name="Changes" comment="vastuste sisestamine ja uuesti mängu alustamine">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +97,7 @@
       <workItem from="1742200270151" duration="3894000" />
       <workItem from="1742465517959" duration="84000" />
       <workItem from="1742465613567" duration="644000" />
-      <workItem from="1743409014919" duration="8411000" />
+      <workItem from="1743409014919" duration="8938000" />
     </task>
     <task id="LOCAL-00001" summary="vastuste sisestamine ja uuesti mägnu alustamine">
       <option name="closed" value="true" />
@@ -121,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743418279724</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="vastuste sisestamine ja uuesti mängu alustamine">
+      <option name="closed" value="true" />
+      <created>1743418627487</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743418627487</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

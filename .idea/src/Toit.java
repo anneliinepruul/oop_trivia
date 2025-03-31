@@ -17,16 +17,16 @@ class Toit {
         };
 
         this.toiduVastused = new String[]{
-                "Kartulitest ja tangudest/kruupidest (ja seapekk)",
-                "Pohlamoos",
-                "Kali",
-                "Kama",
-                "Hernesupp",
-                "NOA Chef’s Hall",
-                "Pärnus",
-                "Vana-Tallinn",
-                "A. Le Coq",
-                "Imavere"
+                "kartulitest ja tangudest",
+                "pohlamoos",
+                "kali",
+                "kama",
+                "hernesupp",
+                "noa chef’s hall",
+                "pärnus",
+                "vana-tallinn",
+                "a. le coq",
+                "imavere"
         };
     }
 

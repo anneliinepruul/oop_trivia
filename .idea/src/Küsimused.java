@@ -1,7 +1,20 @@
+import com.sun.tools.javac.Main;
+
 import java.util.Random;
 import java.util.Scanner;
 
 public class Küsimused {
+    private int indeks;
+    private int valik;
+    private Scanner scanner;  // Üksainus scanner objekt
+
+    public Küsimused(Scanner scanner) {
+        this.scanner = scanner;
+    }
+
+    public Scanner getScanner() {
+        return scanner;
+    }
 
     public String esitaKüsimus(int valik) {
         Random random = new Random();
@@ -9,47 +22,46 @@ public class Küsimused {
         switch (valik) {
             case 1:
                 Ajalugu ajalugu = new Ajalugu();
-                int indeks = random.nextInt(ajalugu.getAjalooKüsimused().length);
+                indeks = random.nextInt(ajalugu.getAjalooKüsimused().length);
                 suvalineKüsimus = ajalugu.getAjalooKüsimused()[indeks];
                 break;
             case 2:
                 It it = new It();
-                int indeks2 = random.nextInt(it.getItKüsimused().length);
-                suvalineKüsimus = it.getItKüsimused()[indeks2];
+                indeks = random.nextInt(it.getItKüsimused().length);
+                suvalineKüsimus = it.getItKüsimused()[indeks];
                 break;
             case 3:
                 Keel keel = new Keel();
-                int indeks3 = random.nextInt(keel.getKeeleKüsimused().length);
-                suvalineKüsimus = keel.getKeeleKüsimused()[indeks3];
+                indeks = random.nextInt(keel.getKeeleKüsimused().length);
+                suvalineKüsimus = keel.getKeeleKüsimused()[indeks];
                 break;
             case 4:
                 Muusika muusika = new Muusika();
-                int indeks4 = random.nextInt(muusika.getMuusikaKüsimused().length);
-                suvalineKüsimus = muusika.getMuusikaKüsimused()[indeks4];
+                indeks = random.nextInt(muusika.getMuusikaKüsimused().length);
+                suvalineKüsimus = muusika.getMuusikaKüsimused()[indeks];
                 break;
             case 5:
                 Sport sport = new Sport();
-                int indeks5 = random.nextInt(sport.getSpordiKüsimused().length);
-                suvalineKüsimus = sport.getSpordiKüsimused()[indeks5];
+                indeks = random.nextInt(sport.getSpordiKüsimused().length);
+                suvalineKüsimus = sport.getSpordiKüsimused()[indeks];
                 break;
             case 6:
                 Toit toit = new Toit();
-                int indeks6 = random.nextInt(toit.getToiduKüsimused().length);
-                suvalineKüsimus = toit.getToiduKüsimused()[indeks6];
+                indeks = random.nextInt(toit.getToiduKüsimused().length);
+                suvalineKüsimus = toit.getToiduKüsimused()[indeks];
                 break;
             case 7:
                 Varia varia = new Varia();
-                int indeks7 = random.nextInt(varia.getVariaKüsimused().length);
-                suvalineKüsimus = varia.getVariaKüsimused()[indeks7];
+                indeks = random.nextInt(varia.getVariaKüsimused().length);
+                suvalineKüsimus = varia.getVariaKüsimused()[indeks];
                 break;
             default:
-                suvalineKüsimus = "Tundmatu suvalineKüsimus";
+                suvalineKüsimus = "Tundmatu kategooria";
                 break;
         }
         return suvalineKüsimus;
     }
         public int valiKategooria () {
-            Scanner scanner = new Scanner(System.in);
 
             System.out.println("Vali kategooria: ");
             System.out.println("1 - Ajalugu");
@@ -60,7 +72,7 @@ public class Küsimused {
             System.out.println("6 - Toit");
             System.out.println("7 - Varia");
 
-            int valik = -1;
+            valik = -1;
             while (valik < 1 || valik > 7) {
                 System.out.println("Vali kategooria (1-7):");
                 try {
@@ -71,4 +83,18 @@ public class Küsimused {
             }
             return valik;
         }
+
+    public int getIndeks() {
+        return indeks;
     }
+
+    public int getValik() {
+        return valik;
+    }
+
+    public boolean kasUuestimängida() throws Exception {
+        System.out.println("Kas soovite uuesti mängida? (jah / ei)");
+        String kasutajaValik = scanner.nextLine();
+        return kasutajaValik.equalsIgnoreCase("jah");
+    }
+}

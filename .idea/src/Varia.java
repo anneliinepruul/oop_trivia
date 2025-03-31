@@ -12,9 +12,9 @@ public class Varia {
         };
 
         this.variaVastused = new String[]{
-                "Võhandu", "Tudulinn", "Rummu (sest rumm on piraatide jook :DD)", "2011",
-                "Tõde ja Õigus", "Rukkilill", "2013", "Aktuaalne kaamera",
-                "Tallinna teletorn (314 m)", "5"
+                "võhandu", "tudulinn", "rummu", "2011",
+                "tõde ja õigus", "rukkilill", "2013", "aktuaalne kaamera",
+                "tallinna teletorn (314 m)", "5"
         };
     }
 

@@ -17,9 +17,9 @@ public class It {
         };
 
         this.itVastused = new String[]{
-                "Skype", "2007", "2014", "Tartu Ülikooli veebileht",
-                "Wise", "Bolt", "2005", "DigiDoc",
-                "Python", "Tallinn"
+                "skype", "2007", "2014", "tartu ülikooli veebileht",
+                "wise", "bolt", "2005", "digidoc",
+                "python", "tallinn"
         };
     }
 

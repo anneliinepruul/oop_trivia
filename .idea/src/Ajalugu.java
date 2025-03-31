@@ -12,9 +12,9 @@ public class Ajalugu {
         };
 
         this.ajalooVastused = new String[]{
-                "Konstantin Päts", "1918", "Pulli asula", "Tarbatu",
-                "1989", "1632", "1869", "Valge Daam",
-                "Kalevipoeg", "Narva"
+                "konstantin Päts", "1918", "pulli asula", "tarbatu",
+                "1989", "1632", "1869", "valge daam",
+                "kalevipoeg", "narva"
         };
     }
 

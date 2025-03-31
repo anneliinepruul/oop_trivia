@@ -17,16 +17,16 @@ class Muusika {
         };
 
         this.muusikaVastused = new String[]{
-                "Markkus Pulk",
-                "\"Everybody\"",
-                "Jalmar Vabarna",
-                "Eino Tamberg",
+                "markkus pulk",
+                "\"everybody\"",
+                "jalmar vabarna",
+                "eino tamberg",
                 "1994.a.",
-                "Viljandi Pärimusmuusika Festival/Viljandi folk",
-                "Ei toimunud",
-                "Johann Voldemar Jannsen",
-                "Trad.Attack!",
-                "Kermo Murel"
+                "viljandi folk",
+                "ei toimunud",
+                "johann voldemar jannsen",
+                "trad.attack!",
+                "kermo murel"
         };
     }
 

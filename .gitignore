@@ -1,0 +1,5 @@
+# Ignore .class failid
+*.class
+
+# Ignore .DS_Store failid
+.DS_Store

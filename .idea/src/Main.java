@@ -14,7 +14,7 @@ public class Main {
             System.out.println(küsimused.esitaKüsimus(kategooriaValik));  // Kutsume esitaKüsimus, et saada küsimus
             System.out.println();
 
-            vastus.vastus();  // Läbime vastuste kontrolli
+            vastus.vastus(küsimused);  // Läbime vastuste kontrolli
             uuestiMängida = küsimused.kasUuestimängida();  // Küsi, kas mängida uuesti
         }
 

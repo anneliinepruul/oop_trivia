@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Küsimused {
     private int indeks;
     private int valik;
-    private Scanner scanner;  // Üksainus scanner objekt
+    private Scanner scanner;
 
     public Küsimused(Scanner scanner) {
         this.scanner = scanner;
@@ -13,6 +13,8 @@ public class Küsimused {
     public Scanner getScanner() {
         return scanner;
     }
+
+    // Küsimuse esitamine vastavalt valitud kategooriale
 
     public String esitaKüsimus(int valik) {
         Random random = new Random();
@@ -76,7 +78,7 @@ public class Küsimused {
         while (valik < 1 || valik > 7) {
             System.out.println("Vali kategooria (1-7):");
             try {
-                valik = Integer.parseInt(scanner.nextLine());  // Loeme kogu rea ja teisendame arvuks
+                valik = Integer.parseInt(scanner.nextLine());
             } catch (NumberFormatException e) {
                 System.out.println("Vale sisend, proovi uuesti.");
             }
@@ -86,8 +88,6 @@ public class Küsimused {
     }
 
     public int getIndeks() {
-
-        System.out.println(valik);
         return indeks;
     }
 
@@ -95,6 +95,8 @@ public class Küsimused {
 
         return valik;
     }
+
+    // Mängu lõpetamise või jätkamise valik
 
     public boolean kasUuestimängida() throws Exception {
         System.out.println("Kas soovite uuesti mängida? (jah / ei)");

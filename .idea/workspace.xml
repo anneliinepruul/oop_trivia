@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ac0811f-f6cd-4d26-a8f8-34c5ac522e8b" name="Changes" comment="" />
+    <list default="true" id="9ac0811f-f6cd-4d26-a8f8-34c5ac522e8b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/src/Ajalugu.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Ajalugu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/Küsimused.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Küsimused.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/Vastused.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Vastused.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/Küsimused.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_trivia/Küsimused.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_trivia/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_trivia/Vastused.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_trivia/Vastused.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -50,23 +61,24 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="oop_trivia" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="oop_trivia" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -81,6 +93,8 @@
       <workItem from="1742200270151" duration="3894000" />
       <workItem from="1742465517959" duration="84000" />
       <workItem from="1742465613567" duration="644000" />
+      <workItem from="1743577967202" duration="677000" />
+      <workItem from="1743671185731" duration="3301000" />
     </task>
     <servers />
   </component>

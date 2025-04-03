@@ -8,6 +8,8 @@ public class Vastused {
         this.scanner = scanner;
     }
 
+    // Vastavalt küsitud küsimuse kategooriale õige vastuse saamine
+
     public void vastus(Küsimused küsimused){
         int valik = küsimused.getValik();
         System.out.println("Sisesta vastus (väiketähtedes) : ");
@@ -45,11 +47,16 @@ public class Vastused {
                 break;
         }
 
+        // Vastuse kontroll
+
         String kasutajaVastus = küsimused.getScanner().nextLine();
         if (kasutajaVastus.equals(õigeVastus)) {
             System.out.println("Õige vastus!");
+
         } else {
             System.out.println("Vale vastus! Õige vastus oli: " + õigeVastus);
         }
+
     }
+
 }

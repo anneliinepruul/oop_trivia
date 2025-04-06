@@ -14,7 +14,7 @@ public class Main {
             int kategooriaValik = küsimused.valiKategooria();
             System.out.println(küsimused.esitaKüsimus(kategooriaValik));
 
-            //vastus.vastus(küsimused);
+            vastus.vastus(küsimused);
 
             uuestiMängida = küsimused.kasUuestimängida();
         }

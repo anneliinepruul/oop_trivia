@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ac0811f-f6cd-4d26-a8f8-34c5ac522e8b" name="Changes" comment="Viimane versioon">
+      <change beforePath="$PROJECT_DIR$/.idea/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +22,12 @@
     &quot;assignee&quot;: &quot;anneliinepruul&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/anneliinepruul/oop_trivia.git&quot;,
-    &quot;accountId&quot;: &quot;e5d4fbbc-f4ed-4035-bea1-08e25ae651c2&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/anneliinepruul/oop_trivia.git",
+    "accountId": "73fa9ad3-700a-4da9-898d-35465bf02817"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -69,8 +70,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
       </set>
     </attachedChunks>
   </component>
@@ -87,6 +88,7 @@
       <workItem from="1742465613567" duration="644000" />
       <workItem from="1743577967202" duration="677000" />
       <workItem from="1743671185731" duration="3714000" />
+      <workItem from="1743679719433" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Viimane versioon">
       <option name="closed" value="true" />
